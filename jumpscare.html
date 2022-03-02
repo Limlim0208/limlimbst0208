@@ -6,34 +6,33 @@
 </head>
 <body>
 
-<li>#include <stdio.h>
-#include <time.h>
+#include <stdio.h> <br>
+#include <time.h> <br>
 
-void wait(int seconds) {
-  clock_t endwait;
-  endwait = clock() + seconds * CLOCKS_PER_SEC;
-  while (clock() < endwait) {
-  }
-}
-
-int main() {
-  
-  int n;
-  int a;
-  printf("...살려주세요, 여기 사람이 갇혀있어요.\n\
-    목소리가 안 나와요.\n");
-  for (n = 0; n < 3; n++)
-  {wait(1);}
-
-  while (n>2){
-    for (a = 26000; a > 0; a--){
-  printf("숨이막혀");
-    }
-    printf("\n\n 저 여기에 있어요...");
-    break;
-    }
-  
-  return 0;
-} </li>
+void wait(int seconds) {<br>
+  clock_t endwait;<br>
+  endwait = clock() + seconds * CLOCKS_PER_SEC;<br>
+  while (clock() < endwait) {<br>
+  }<br>
+}<br>
+<br>
+int main() {<br>
+  int n;<br>
+  int a;<br>
+  printf("...살려주세요, 여기 사람이 갇혀있어요.\n\<br>
+    목소리가 안 나와요.\n");<br>
+  for (n = 0; n < 3; n++)<br>
+  {wait(1);}<br>
+<br>
+  while (n>2){<br>
+    for (a = 26000; a > 0; a--){<br>
+  printf("숨이막혀");<br>
+    }<br>
+    printf("\n\n 저 여기에 있어요...");<br>
+    break;<br>
+    }<br>
+  <br>
+  return 0;<br>
+}<br>
   </body>
 </html>
